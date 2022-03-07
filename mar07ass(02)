@@ -1,0 +1,8 @@
+i=input().split()
+x=[]
+res=[]
+for i in i:
+    x.append(int(i))
+for j in x:
+    res=(sortend(x).index(j)+1 for j in x)
+print(res,end=' ')
